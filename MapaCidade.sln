@@ -23,7 +23,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapaCidade.Apresentacao.MVC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Test", "5 - Test", "{D4AF76E6-7C97-4731-AADC-085B1F1DDAAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapaCidade.Test", "MapaCidade.Test\MapaCidade.Test.csproj", "{F65E6CFD-35BD-4B62-B751-1FB4104C6C34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapaCidade.Test", "MapaCidade.Test\MapaCidade.Test.csproj", "{F65E6CFD-35BD-4B62-B751-1FB4104C6C34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Doc", "0 - Doc", "{3A7CBF3C-0F4B-47B4-A7F7-71C4EC4632D1}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Projeto de bloco.doc = ..\..\..\Desktop\Projeto de bloco.doc
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
