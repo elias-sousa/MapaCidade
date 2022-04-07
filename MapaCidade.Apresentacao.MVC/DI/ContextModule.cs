@@ -11,7 +11,7 @@ namespace MapaCidade.Apresentacao.MVC.DI
 {
     public static partial class ContextModule
     {
-        public static void ResolveGestQualContext(this IServiceCollection services, IConfiguration configuration)
+        public static void ResolveMapaCidadeContext(this IServiceCollection services, IConfiguration configuration)
         {
             var connection = configuration.GetConnectionString("MapaEstacao");
 

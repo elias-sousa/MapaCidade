@@ -29,7 +29,7 @@ namespace MapaCidade.Apresentacao.MVC
 
             services.AddControllersWithViews();
             services.ResolveEstacaoRecarga();
-            services.ResolveGestQualContext(Configuration);
+            services.ResolveMapaCidadeContext(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
